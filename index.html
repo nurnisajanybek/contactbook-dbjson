@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- add form start -->
+    <div id="inputs">
+      <input type="text" id="inp-first-name" placeholder="Firstname" />
+      <input type="text" id="inp-last-name" placeholder="Lastname" />
+      <input type="text" id="inp-phone" placeholder="Phone" />
+      <input type="text" id="inp-img" placeholder="Image" />
+      <button id="btn-add">Save</button>
+    </div>
+    <!-- add form end -->
+
+    <!-- List start -->
+    <div id="list"></div>
+    <!-- List end -->
+    <!-- Modal start -->
+    <div id="modal-edit">
+      <div id="modal-edit-body">
+        <button id="modal-edit-close">Close</button>
+
+        <div id="modal-edit-inps">
+          <input type="text" id="inp-edit-first-name" placeholder="Firstname" />
+          <input type="text" id="inp-edit-last-name" placeholder="Lastname" />
+          <input type="text" id="inp-edit-phone" placeholder="Phone" />
+          <input type="text" id="inp-edit-image" placeholder="Url" />
+          <br />
+          <button id="btn-save-edit">Save</button>
+        </div>
+      </div>
+    </div>
+    <!-- Modal end -->
+    <script src="./main.js"></script>
+  </body>
+</html>
